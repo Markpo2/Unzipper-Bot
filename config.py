@@ -10,7 +10,7 @@ class Config(object):
     LOGS_CHANNEL = int(os.environ.get("-1001465954010"))
     BOT_OWNER = int(os.environ.get("1284818583"))
     MONGODB_URL = os.environ.get("MONGODB_URL")
-    GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN")
+    GOFILE_TOKEN = os.environ.get("bbZVUX1q5HxuXR9AbkHIQrvimRmPH50N")
     # Optional
     MAX_DOWNLOAD_SIZE = int(os.environ.get("MAX_DOWNLOAD_SIZE")) if os.environ.get("MAX_DOWNLOAD_SIZE") else 10737418240
     # Constents
