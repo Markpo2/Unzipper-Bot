@@ -4,11 +4,11 @@ import os
 
 class Config(object):
     # Mandotory
-    APP_ID = int(os.environ.get("APP_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL"))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    APP_ID = int(os.environ.get("7143337"))
+    API_HASH = os.environ.get("1afa55a5f3bf7058c843d1b290f79c49")
+    BOT_TOKEN = os.environ.get("6043283784:AAHLV11M9g3gaDj5dE-Sr5fKhSCd8CT-lOc")
+    LOGS_CHANNEL = int(os.environ.get("-1001465954010"))
+    BOT_OWNER = int(os.environ.get("1284818583"))
     MONGODB_URL = os.environ.get("MONGODB_URL")
     GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN")
     # Optional
