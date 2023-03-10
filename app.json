@@ -31,7 +31,7 @@
         },
         "MONGODB_URL": {
             "description": "Your MongoDB url, Get it from https://www.mongodb.com/",
-            "required": true
+            "required": false
         },
         "LOGS_CHANNEL": {
             "description": "Make a private channel and forward a message from that channel to @ChannelidHEXbot and Get this",
@@ -39,7 +39,7 @@
         },
         "GOFILE_TOKEN": {
             "description": "Your gofile.io API token from your profile page",
-            "required": true
+            "required": false
         }
     },
     "addons": [],
