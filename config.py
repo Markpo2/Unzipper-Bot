@@ -4,7 +4,7 @@ import os
 
 class Config(object):
     # Mandotory
-    APP_ID = int(os.environ.get("7143337"))
+    API_ID = int(os.environ.get("7143337"))
     API_HASH = os.environ.get("1afa55a5f3bf7058c843d1b290f79c49")
     BOT_TOKEN = os.environ.get("6043283784:AAHLV11M9g3gaDj5dE-Sr5fKhSCd8CT-lOc")
     LOGS_CHANNEL = int(os.environ.get("-1001465954010"))
